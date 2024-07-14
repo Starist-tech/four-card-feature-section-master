@@ -14,15 +14,17 @@
     font-family: "Poppins";
     font-size: 15px;
     padding: 0;
-    margin: 0;
 }
 
 .container {
-    padding: 20px 10%;
+    padding: 5px 20px;
+    max-width: 2000px;
+    margin: auto;
 }
 header {
     text-align: center;
     padding-bottom: 20px;
+    margin: auto;
 }
 h1.light {
     color: var(--Very-Dark-Blue);
@@ -30,17 +32,16 @@ h1.light {
 }
 h1.dark {
     color: var(--Very-Dark-Blue);
-    padding-bottom: 10px;
+    margin: -12px auto 20px;
 }
 header p.desc {
     color: var(--Grayish-Blue);
     font-size: 10px;
 }
-
 .box {
     background-color: white;
     box-shadow: 0px 15px 50px -30px black;
-    margin: 20px auto;
+    margin: 25px auto;
     width: 70%;
     height: 175px;
     border-top: 3px solid var(--Red);
@@ -85,12 +86,7 @@ p.attribution a {
         justify-content: center;
         align-items: center;
     }
-    .box {
-        width: 275px;
-        margin: 10px 10px;
-    }
     header{
-        margin: 0 auto 25px;
         max-width: 75%;
     }
     header > *{
@@ -99,9 +95,10 @@ p.attribution a {
     header p.desc {
         font-size: 15px;
     }    
-}
-
-@media screen and (min-width: 1280px) {
+    .box {
+        width: 23%;
+        margin: 10px 10px;
+    }
     .box.b1{
         transform: translateY(135px);
     }
@@ -113,14 +110,3 @@ p.attribution a {
     }
 }
 
-@media screen and (min-width: 1600px) {
-    .container {
-        padding: 20px 15%;
-    }
-  }   
-
-@media screen and (min-width: 1900px) {
-    .container {
-        padding: 20px 20%;
-    }
-  }   
