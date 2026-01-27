@@ -1,4 +1,4 @@
-The site is live at https://starist-tech.github.io/four-card-feature-section-master/
+The site is live at https://7amzter.github.io/four-card-feature-section-master/
 
 # Frontend Mentor - Four card feature section
 
